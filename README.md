@@ -1,5 +1,10 @@
 # graphite
 
+**graphite** [origin: german] _noun_
+**Definitions:**
+1. a very common mineral, soft native carbon, occurring in black to dark-gray foliated masses, with metallic luster and greasy feel: used for pencil leads, as a lubricant, and for making crucibles and other refractories; plumbago; black lead;
+2. to write, draw
+
 <p align="center"><img align="center" src="meta/logo/graphite_logo_v1.png" width="400px"></p>
 
 ## Contents
