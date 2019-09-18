@@ -121,7 +121,7 @@ docker stop <container>
 
 #### Building your own Docker container
 
-A stand-alone OTP server can also be built and deployed in the [otp/](otp/) directory by editing the `Dockerfile` and `build.sh` files.
+A stand-alone OTP server can also be built and deployed in the [docker/](https://github.com/datasciencecampus/graphite/tree/develop/docker/) directory by editing the `Dockerfile` and `build.sh` files.
 
 ## FAQ
 
