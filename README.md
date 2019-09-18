@@ -5,9 +5,7 @@
 ## Contents
 
 * [Introduction](#introduction)
-
 * [Software Prerequisites](#software-prerequisites)
-
 * [GTFS feed](#gtfs-feed)
   	* [Creating a GTFS feed](#creating-a-gtfs-feed)
   	* [TransXChange to GTFS](#transxchange-to-gtfs)
@@ -16,11 +14,9 @@
   	* [CIF to GTFS](#cif-to-gtfs)
   	* [Cleaning the GTFS data](#cleaning-the-gtfs-data)
   	* [Sample GTFS data](#˜sample-gtfs-data)  
-
 * [Creating and running an OpenTripPlanner server](#creating-and-running-an-opentripplanner-server)
 	* [Java method](#java-method)
   * [Docker method](#docker-method)
-
 * [FAQ](#faq)    
 
 ## Introduction
