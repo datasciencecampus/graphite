@@ -5,6 +5,9 @@
 ## Contents
 
 * [Introduction](#introduction)
+
+* [Software Prerequisites](#software-prerequisites)
+
 * [GTFS feed](#gtfs-feed)
   	* [Creating a GTFS feed](#creating-a-gtfs-feed)
   	* [TransXChange to GTFS](#transxchange-to-gtfs)
@@ -18,11 +21,20 @@
 	* [Java method](#java-method)
   * [Docker method](#docker-method)
 
-4. [FAQ](#faq)    
+* [FAQ](#faq)    
 
 ## Introduction
 
 The R package ([propeR](https://github.com/datasciencecampus/proper)) was created to analyse multimodal transport for a number of research projects at the [Data Science Campus, Office for National Statistics](https://datasciencecampus.ons.gov.uk/).
+
+## Software Prerequisites
+
+* GTFS building (optional)
+  * A C# compiler such as Visual Studio Code, AND
+  * MySQL
+* OTP server (required)
+  * Java SE Runtime Environment 8 (preferrably 64-bit) [[download here]](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html), OR
+  * Docker
 
 ## GTFS feed
 
