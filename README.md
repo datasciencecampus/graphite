@@ -1,3 +1,5 @@
+# graphite
+
 <p align="center"><img align="center" src="meta/logo/graphite_logo_v1.png" width="400px"></p>
 
 ## Contents
