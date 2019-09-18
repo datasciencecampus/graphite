@@ -1,6 +1,6 @@
 # graphite manual
 
-<p align="center"><img align="center" src="meta/logo/graphite_logo_v1.png" width="200px"></p>
+<p align="center"><img align="center" src="meta/logo/graphite_logo_v1.png" width="400px"></p>
 
 ## Contents
 
