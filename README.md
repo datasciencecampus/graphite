@@ -37,7 +37,7 @@ An OpenTripPlanner server can be built without a [General Transit Feed Specifica
 
 ### Sample GTFS data
 
-The [Data Science Campus](https://datasciencecampus.ons.gov.uk/) has created some cleaned GTFS data from March 2019 (using the [guide here](https://github.com/datasciencecampus/graphite/tree/master/example.md)) for:
+The [Data Science Campus](https://datasciencecampus.ons.gov.uk/) has created some cleaned GTFS data from March 2019 (using the [guide here](https://github.com/datasciencecampus/graphite/tree/develop/example.md)) for:
 
 * buses in Cardiff, Wales, UK. [Download, 1.7MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/cardiff_bus/Cardiff-gtfs.zip)
 * buses in Wales, UK. [Download, 22.3MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/wales_bus/W_GTFS.zip)
@@ -73,7 +73,7 @@ OSM files for all other regions can be downloaded from [geofabrik](https://downl
 3. Download the latest single stand-alone runnable .jar file of OpenTripPlanner [here](https://repo1.maven.org/maven2/org/opentripplanner/otp/). Choose the '-shaded.jar' file. Place this in the 'otp' folder.
 4. Create a 'graphs' folder in the 'otp' folder.
 5. Create a 'default' folder in the 'graphs' folder.
-6. Put the GTFS ZIP folder(s) in the 'default' folder along with the latest OpenStreetMap .osm data for your area, found [here](https://download.geofabrik.de/europe/great-britain/wales.html). If you're using the sample GTFS data, an .osm file for Cardiff can be found [here](https://github.com/datasciencecampus/access-to-services/tree/master/propeR/data/osm).
+6. Put the GTFS ZIP folder(s) in the 'default' folder along with the latest OpenStreetMap .osm data for your area, found [here](https://download.geofabrik.de/europe/great-britain/wales.html). If you're using the sample GTFS data, an .osm file for Cardiff can be found [here](https://github.com/datasciencecampus/access-to-services/tree/develop/propeR/data/osm).
 7. Build the graph by using the following command line/terminal command whilst in the 'otp' folder:
 
     ```
