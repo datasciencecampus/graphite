@@ -74,15 +74,15 @@ The Data Science Campus has also created a bespoke OpenStreetMap (osm) file for 
 6. Put the GTFS ZIP folder(s) in the 'default' folder along with the latest OpenStreetMap .osm data for your area, found [here](https://download.geofabrik.de/europe/great-britain/wales.html). If you're using the sample GTFS data, an .osm file for Cardiff can be found [here](https://github.com/datasciencecampus/access-to-services/tree/master/propeR/data/osm).
 7. Build the graph by using the following command line/terminal command whilst in the 'otp' folder:
 
-    ```
-    java -Xmx4G -jar otp-1.3.0-shaded.jar --build graphs/default
-    ```
+    
+    `java -Xmx4G -jar otp-1.3.0-shaded.jar --build graphs/default`
+    
   changing the shaded.jar file name and end folder name to be the appropriate names for your build. '-Xmx4G' specifies a maximum heap size of 4G memory, graph building may not work with less memory than this.
 8. Once the graph has been build you should have a 'Graphs.obj' file in the 'graphs/default' folder. Now initiate the server using the following command from the 'otp' folder:
 
-    ```
-    java -Xmx4G -jar otp-1.3.0-shaded.jar --graphs graphs --router default --server
-    ```
+    
+    `java -Xmx4G -jar otp-1.3.0-shaded.jar --graphs graphs --router default --server`
+    
 Again, checking the shaded.jar file and folder names are correct.
 9. If successful, the front-end of OTP should be accessible from your browser using [http://localhost:8080/](http://localhost:8080/).
 
