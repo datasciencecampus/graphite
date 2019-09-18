@@ -116,3 +116,9 @@ Q: Do I need a GTFS file to build a graph?
 Q: I found a bug!
 
 >A: Please use the GitHub issues form to provide us with the information ([here](https://github.com/datasciencecampus/graphite/issues))
+
+## Authors / Contributors
+
+#### Data Science Campus - Office for National Statistics
+* [Michael Hodge](https://github.com/mshodge)
+* [Phillip Stubbings](https://github.com/phil8192)
