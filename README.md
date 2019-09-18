@@ -122,3 +122,15 @@ Q: I found a bug!
 #### Data Science Campus - Office for National Statistics
 * [Michael Hodge](https://github.com/mshodge)
 * [Phillip Stubbings](https://github.com/phil8192)
+
+## Contributions and Bug Reports
+
+We welcome contributions and bug reports. Please do this on this repo and we will endeavour to review pull requests and fix bugs in a prompt manner.
+
+## Licence
+
+The Open Government Licence (OGL) Version 3
+
+Copyright (c) 2018 Office of National Statistics
+
+This source code is licensed under the Open Government Licence v3.0. To view this licence, visit [www.nationalarchives.gov.uk/doc/open-government-licence/version/3](www.nationalarchives.gov.uk/doc/open-government-licence/version/3) or write to the Information Policy Team, The National Archives, Kew, Richmond, Surrey, TW9 4DU.
