@@ -96,10 +96,10 @@ docker run -p 8080:8080 datasciencecampus/<docker_image>
 
 where `<docker_image>` is:
 
-* `dsc_otp` (graph for Cardiff, Wales, UK from March 2019)
-* `dsc_otp_wales_mar19` (graph for Wales, UK from March 2019)
-* `dsc_otp_scotland_mar19` (graph for Scotland, UK from March 2019)
-* `dsc_otp_england_mar19` (graph for England, UK from March 2019)
+* `dsc_otp` (graph for Cardiff, Wales, UK from March 2019, 313MB)
+* `dsc_otp_wales_mar19` (graph for Wales, UK from March 2019, 693MB)
+* `dsc_otp_scotland_mar19` (graph for Scotland, UK from March 2019, 850MB)
+* `dsc_otp_england_mar19` (graph for England, UK from March 2019, ?MB)
 
 A stand-alone OTP server can also be built and deployed in the [otp/](otp/) directory by editing the `Dockerfile` and `build.sh` files.
 
