@@ -91,15 +91,15 @@ Again, checking the shaded.jar file and folder names are correct.
 Again for convenience we have created several docker images to run an OTP server. First fire up OTP server (parse `-d` flag to daemonise).
 
 ```
-docker run -p 8080:8080 datasciencecampus/<docker_image>
+docker run -p 8080:8080 datasciencecampus/<docker_image>:<tag_number>
 ```
 
 where `<docker_image>` is:
 
-* `dsc_otp` ([docker image for Cardiff, Wales, UK from March 2019, 313MB](https://hub.docker.com/r/datasciencecampus/dsc_otp))
-* `dsc_otp_wales_mar19` ([docker image for Wales, UK from March 2019, 693MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_wales_mar19))
-* `dsc_otp_scotland_mar19` ([docker image for Scotland, UK from March 2019, 850MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_scotland_mar19))
-* `dsc_otp_england_mar19` ([docker image for England, UK from March 2019, 2350MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_england_mar19))
+* `dsc_otp:1.0` ([docker image for Cardiff, Wales, UK from March 2019, 313MB](https://hub.docker.com/r/datasciencecampus/dsc_otp))
+* `dsc_otp_wales_mar19:1.0` ([docker image for Wales, UK from March 2019, 693MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_wales_mar19))
+* `dsc_otp_scotland_mar19:1.0` ([docker image for Scotland, UK from March 2019, 850MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_scotland_mar19))
+* `dsc_otp_england_mar19:1.0` ([docker image for England, UK from March 2019, 2350MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_england_mar19))
 
 A stand-alone OTP server can also be built and deployed in the [otp/](otp/) directory by editing the `Dockerfile` and `build.sh` files.
 
