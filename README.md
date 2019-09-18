@@ -103,6 +103,18 @@ where `<docker_image>` is:
 
 A stand-alone OTP server can also be built and deployed in the [otp/](otp/) directory by editing the `Dockerfile` and `build.sh` files.
 
+To kill a docker container first list all containers running using:
+
+```
+docker ps
+```
+
+Then:
+
+```
+docker stop <container>
+```
+
 ## FAQ
 
 Q: Do I need an OpenStreetMap (.osm) file to build a graph?
