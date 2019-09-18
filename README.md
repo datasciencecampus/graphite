@@ -1,4 +1,4 @@
-# graphite
+# G R A P H I T E
 
 **graphite** [origin: german] _noun_
 **Definitions:**
