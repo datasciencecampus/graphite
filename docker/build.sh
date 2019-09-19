@@ -31,7 +31,7 @@ cd graphs/default
 
 if [ $REG = 1 ]; then
   wget $GTFS_wales_bus
-elif [ $REG = 1 ]; then
+elif [ $REG = 2 ]; then
   wget $GTFS_S_bus
 elif [ $REG = 3 ]; then
   wget $GTFS_EA_bus
