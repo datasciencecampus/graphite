@@ -121,7 +121,23 @@ docker stop <container>
 
 #### Building your own Docker container
 
-A stand-alone OTP server can also be built and deployed in the [docker/](https://github.com/datasciencecampus/graphite/tree/develop/docker/) directory by editing the `Dockerfile` and `build.sh` files.
+A stand-alone OTP server can also be built and deployed in the [docker/](https://github.com/datasciencecampus/graphite/tree/develop/docker/) directory by editing the `Dockerfile` and `build.sh` files, then cd to the docker folder containing the a `Dockerfile` and use the command line:
+
+```
+docker build . -t <tag_name>
+```
+
+The uploaded `Dockerfile` has the following arguments that can be passed to `docker build` using `--build-arg`:
+
+- HEAP (the heap size of the JVM, default is 16GB)
+- REG (the region, here set to 1 for Wales, 2 for Scotland and 3 for England) 
+- OTP_JAR (the OTP jar file version, here set to 1.3.0 by default)
+
+Then run the created image using:
+
+```
+docker run -p 8080:8080 <tag_name>
+```
 
 ## FAQ
 
