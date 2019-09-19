@@ -118,7 +118,7 @@ docker ps
 Then:
 
 ```
-docker stop <container>
+docker stop <container_ID>
 ```
 
 #### Building your own Docker container
