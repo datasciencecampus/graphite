@@ -95,10 +95,10 @@ Again, checking the shaded.jar file and folder names are correct.
 For convenience we have created several docker images to run an OTP server for several regions in the UK. First you must install Docker. To run, type in the command line (parse `-d` flag to daemonise):
 
 ```
-docker run -p 8080:8080 datasciencecampus/<docker_image>:<tag_number>
+docker run -p 8080:8080 datasciencecampus/<tag_name>:<tag_number>
 ```
 
-where `<docker_image>` is:
+where `<tag_name>` is:
 
 * `dsc_otp:1.0` ([docker image for Cardiff, Wales, UK from March 2019, 313MB](https://hub.docker.com/r/datasciencecampus/dsc_otp))
 * `dsc_otp_wales_mar19:1.0` ([docker image for Wales, UK from March 2019, 693MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_wales_mar19))
