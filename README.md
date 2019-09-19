@@ -39,24 +39,24 @@ An OpenTripPlanner server can be built without a [General Transit Feed Specifica
 
 The [Data Science Campus](https://datasciencecampus.ons.gov.uk/) has created some cleaned GTFS data from March 2019 (using the [guide here](https://github.com/datasciencecampus/graphite/tree/develop/example.md)) for:
 
-* buses in Cardiff, Wales, UK. [Download, 1.7MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/cardiff_bus/Cardiff-gtfs.zip)
-* buses in Wales, UK. [Download, 22.3MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/wales_bus/W_GTFS.zip)
-* buses in Scotland, UK. [Download, 34.6MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/scotland_bus/S_GTFS.zip)
-* buses in East Anglia, England, UK. [Download, 3.5MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/EA_GTFS.zip)
-* buses in East Midlands, England, UK. [Download, 28.0MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/EM_GTFS.zip)
-* buses in Greater London, England, UK. [Download, 99.8MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/L_GTFS.zip)
-* buses in the North East, England, UK. [Download, 43.4MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/NE_GTFS.zip)
-* buses in the North West, England, UK. [Download, 34.1MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/NW_GTFS.zip)
-* buses in the South East, England, UK. [Download, 55.3MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/SE_GTFS.zip)
-* buses in the South West, England, UK. [Download, 26.7MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/SW_GTFS.zip)
-* buses in the West Midlands, England, UK. [Download, 25.5MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/WM_GTFS.zip)
-* buses in Yorkshire, England, UK. [Download, 29.2MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/Y_GTFS.zip)
-* national coaches in the UK. [Download, 1.2MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/ncsd/NCSD_GTFS.zip)
-* trains in the UK. [Download, 21.4MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/uk_train/train_GTFS.zip)
+* buses in Cardiff, Wales, UK. [Download (1.7MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/cardiff_bus/Cardiff-gtfs.zip)
+* buses in Wales, UK. [Download (22.3MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/wales_bus/W_GTFS.zip)
+* buses in Scotland, UK. [Download (34.6MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/scotland_bus/S_GTFS.zip)
+* buses in East Anglia, England, UK. [Download (3.5MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/EA_GTFS.zip)
+* buses in East Midlands, England, UK. [Download (28.0MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/EM_GTFS.zip)
+* buses in Greater London, England, UK. [Download (99.8MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/L_GTFS.zip)
+* buses in the North East, England, UK. [Download (43.4MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/NE_GTFS.zip)
+* buses in the North West, England, UK. [Download (34.1MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/NW_GTFS.zip)
+* buses in the South East, England, UK. [Download (55.3MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/SE_GTFS.zip)
+* buses in the South West, England, UK. [Download (26.7MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/SW_GTFS.zip)
+* buses in the West Midlands, England, UK. [Download (25.5MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/WM_GTFS.zip)
+* buses in Yorkshire, England, UK. [Download (29.2MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/england_bus/Y_GTFS.zip)
+* national coaches in the UK. [Download (1.2MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/ncsd/NCSD_GTFS.zip)
+* trains in the UK. [Download (21.4MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/uk_train/train_GTFS.zip)
 
 The Data Science Campus has also created a bespoke OpenStreetMap (osm) file for Cardiff, Wales, UK for March 2019:
 
-* Cardiff OSM file. [Download, 101.1MB](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/cardiff_osm/cardiff.osm)
+* Cardiff OSM file. [Download (101.1MB)](https://a2s-gtfs.s3.eu-west-2.amazonaws.com/Mar19/cardiff_osm/cardiff.osm)
 
 OSM files for all other regions can be downloaded from [geofabrik](https://download.geofabrik.de/).
 
