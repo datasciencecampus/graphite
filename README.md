@@ -105,6 +105,8 @@ where `<docker_image>` is:
 * `dsc_otp_scotland_mar19:1.0` ([docker image for Scotland, UK from March 2019, 850MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_scotland_mar19))
 * `dsc_otp_england_mar19:1.0` ([docker image for England, UK from March 2019, 2350MB](https://hub.docker.com/r/datasciencecampus/dsc_otp_england_mar19))
 
+If successful, the front-end of OTP should be accessible from your browser using http://localhost:8080/.
+
 #### Killing a Docker container
 
 To kill a docker container first list all containers running using:
