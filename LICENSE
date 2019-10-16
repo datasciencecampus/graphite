@@ -9,15 +9,20 @@ Surrey, TW9 4DU.
 
 --------------------------------------------------------------------------------
 
-Use of [transxchange2gtfs](https://github.com/planarnetwork/transxchange2gtfs) is permitted under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) by planarnetwork.
+Use of the transxchange2gtfs converter (https://github.com/planarnetwork/transxchange2gtfs) 
+is permitted under GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html) by 
+planarnetwork.
 
 --------------------------------------------------------------------------------
 
-Use of [dtd2mysql](https://github.com/planarnetwork/dtd2mysql) is permitted under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) by planarnetwork. Copyright (c) 2017 Linus Norton.
+Use of the dtd2mysql converter (https://github.com/planarnetwork/dtd2mysql) is permitted 
+under GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html) by planarnetwork. 
+Copyright (c) 2017 Linus Norton.
 
 --------------------------------------------------------------------------------
 
-Use of [TransXChange2GTFS](https://github.com/danbillingsley/TransXChange2GTFS) is permitted by an MIT License;
+Use of the TransXChange2GTFS converter (https://github.com/danbillingsley/TransXChange2GTFS) 
+is permitted by an MIT License;
 
 MIT License
 
@@ -43,10 +48,13 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 
-TransXChange files are from the Traveline National Dataset and are used under the [Open Government License v3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+TransXChange files are from the Traveline National Dataset and are used under 
+the Open Government License v3, visit 
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+for more information.
 
 --------------------------------------------------------------------------------
 
-NaPTAN data is used under the [Open Government License v3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-
---------------------------------------------------------------------------------
+NaPTAN data is used under the Open Government License v3, visit 
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+for more information.
