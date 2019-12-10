@@ -103,7 +103,8 @@ where `<tag_number>` is:
 * `1.0` ([docker image for Cardiff, Wales, UK from March 2019, 298MB](https://hub.docker.com/r/datasciencecampus/dsc_otp/tags))
 * `wales_mar19` ([docker image for Wales, UK from March 2019, 661MB](https://hub.docker.com/r/datasciencecampus/dsc_otp/tags))
 * `scotland_mar19` ([docker image for Scotland, UK from March 2019, 1010MB](https://hub.docker.com/r/datasciencecampus/dsc_otp/tags))
-* `england_mar19` ([docker image for England, UK from March 2019, 2350MB](https://hub.docker.com/r/datasciencecampus/dsc_otp/tags))
+* `england_mar19` ([docker image for England, UK from March 2019, 1250MB](https://hub.docker.com/r/datasciencecampus/dsc_otp/tags))
+* `uk_mar19` (coming soon)
 
 If successful, the front-end of OTP should be accessible from your browser using http://localhost:8080/.
 
@@ -131,8 +132,8 @@ docker build . -t <tag_name>
 
 The uploaded `Dockerfile` has the following arguments that can be passed to `docker build` using `--build-arg`:
 
-- HEAP (the heap size of the JVM, default is 16GB)
-- REG (the region, here set to 1 for Wales, 2 for Scotland and 3 for England) 
+- HEAP (the heap size of the JVM, default is 16GB, you may need over 32GB for a UK build)
+- REG (the region, here set to 1 for Wales, 2 for Scotland, 3 for England, and 4 for UK) 
 - OTP_JAR (the OTP jar file version, here set to 1.3.0 by default)
 
 Then run the created image using:
